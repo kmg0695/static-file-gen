@@ -16,6 +16,7 @@ template_path = root / "template.html"
 
 def main():
     try:
+        print("Testing...")
         print("Deleting public folder....")
         if public.exists():
             shutil.rmtree(public)
